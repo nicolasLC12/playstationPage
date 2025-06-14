@@ -1,0 +1,504 @@
+
+#cuerpoIndex
+{
+    background-image: url(image/fondoPantalla.jpg);
+}
+
+
+#portada
+{
+    margin: 10px auto;
+    width: 90%;
+    height: 100%;
+    position: relative;
+    top: 150px;
+    align-self: center;
+}
+
+#portada > h1
+{
+    color: white;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+#portada p
+{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+#menu
+{
+    margin: auto;
+    width: 80%;
+}
+
+#menu ul
+{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#menu li
+{
+    list-style-type: none;
+    margin: auto;
+}
+
+#menu a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+#menu a:hover
+{
+    background-color: #041A33;
+    transition-duration: 2s;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 40%;
+
+}
+#redes
+{
+    width: 50%;
+    margin: auto;
+}
+#redes ul
+{
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#redes li
+{
+    list-style-type: none;
+}
+
+#redes a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    font-size: 40px;
+    background-color: #041A33;
+    border-radius: 50%;
+}
+
+/*-------------------------------cabecera de paginas-------------------------------*/
+#cabecera
+{
+    background-color: skyblue;
+    width: 100%;
+    height: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+#cabecera ul
+{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+    top: 60px;
+}
+#cabecera li
+{
+    list-style-type: none;
+}
+#cabecera a
+{
+    text-decoration: none;
+    font-size: 20px;
+}
+#cabecera h1
+{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-size:60px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------cuerpo blog-------------------------------------------------*/
+
+#contenido
+{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    top: 300px;
+    z-index: 10;
+}
+#inicio
+{
+    margin: 30px;
+    width: 90%;
+    display: block;
+}
+#inicio img
+{
+    width: 100%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+}
+#autor
+{
+    width: 100%;
+    height: 160px;
+    margin: auto;
+    position: relative;
+    right: 30px;
+    display: flex;
+    flex-direction: row;
+}
+#autor h1
+{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    left: 8%;
+}
+#autor p
+{
+    text-align: end;
+    align-self: flex-end;
+    position: relative;
+    right: 9%;
+    top: 10px;
+}
+#autor img
+{
+    width: 80px;
+    border-radius: 50%;
+    align-self:center;
+}
+#cuerpo
+{
+    height: 100%;
+}
+
+.cuerpo
+{
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+}
+#cuerpo h1
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.dos img
+{
+    width: 180px;
+    float: left;
+    margin: auto;
+}
+.cuatro img
+{
+    width: 180px;
+    float: right;
+    margin: auto;
+}
+
+
+/*-------------------------------------galeria----------------------------------------*/
+
+#fotos
+{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    top: 350px;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#fotos img
+{
+    width: 30%;
+    margin: 20px;
+    display: block;
+    opacity: 70%;
+    box-shadow: 10px 15px 10px black;
+}
+
+#fotos img:hover
+{
+    opacity: 100%;
+    transition:ease-out 1s;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/*--------------------------------codigo de videos-------------------------------------*/
+
+
+#encabezado
+{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    top: 300px;
+    z-index: 10;
+}
+#encabezado h2
+{
+    text-align: center;
+}
+.videos
+{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    top: 300px;
+    z-index: 10;
+    text-align: center;
+}
+.videos iframe
+{
+    margin: 20px;
+    width: 60%;
+    box-shadow:10px 15px 10px black ;
+}
+.videos p
+{
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+/*----------------------------------------------------------------------------------------*/
+
+/*---------------------------------------pie de pagina------------------------------------*/
+
+#finalPagina
+{
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    height: 240px;
+    position: relative;
+    top: 340px;
+}
+#finalPagina p
+{
+    font-size: 30px;
+    margin: 10px;
+}
+#finalPagina ul
+{
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 90px;
+    right: 0%;
+    left: 0%;
+    
+}
+#finalPagina li
+{
+    list-style-type: none;
+    margin: auto;
+    align-self: center;
+}
+#finalPagina a
+{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+    align-self: center;
+}
+
+/*------------------------codigo contactos--------------------------------------*/
+
+#contactos
+{
+    width: 90%;
+    height: 100%;
+    position: relative;
+    top: 300px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contacto
+{
+    width: 40%;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+.contacto table
+{
+    border: solid 1px wheat;
+    margin: 20px;
+    width: 500px;
+}
+.contacto td
+{
+    padding: 10px;
+    border: solid 0.5px blue;
+}
+
+.formulario
+{
+    width: 30%;
+    margin: 80px;
+    padding: 5px;
+    position: relative;
+    bottom: 50px;
+}
+.formulario input
+{
+    margin: auto;
+    width: 300px;
+    height: 30px;
+}
+.formulario h2
+{
+     text-align: left;
+}
+
+.mapa
+{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 50px;
+}
+.mapa iframe
+{
+    margin: auto;
+    display: block;
+    width: 70%;
+    height: 400px;
+}
+
+
+#contactos img
+{
+    margin: auto;
+    width: 50%;
+}
+
+/*------------------------------------cdigo de la pagina nosotros--------------------------------*/
+
+
+#contenidoNosotros
+{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: 300px;
+}
+#decorado
+{
+    margin: auto;
+    padding: 20px;
+    width: 75%;
+    background-color: #041A33;
+    color: white;
+    text-align: center;
+}
+.copy h2
+{
+    background-color: #041A33;
+    color: white;
+}
+#maqutadoGrid
+{
+    margin: 50px auto;
+    width: 80%;
+    height: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+                         "informacion informacion logotipo"
+                         "informacion informacion logotipo"
+                         "imagen imagen logotipo"
+                         "derechos derechos derechos ";
+}
+.info
+{
+    grid-area: informacion;
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+}
+.imagen
+{
+    grid-area: imagen;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.imagen img
+{
+    width: 40%;
+    display: block;
+}
+.imagenCostado
+{
+    grid-area: logotipo;
+}
+.copy
+{
+    grid-area: derechos;
+}
+.imagenCostado img
+{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
